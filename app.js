@@ -167,7 +167,7 @@ db.collection ('users').insertMany([
  db.collection("users").updateOne({_id:mongodb.ObjectId("66b2bcb945e40d9be9560c11")},{
        
         
-        $inc: {age: 5}
+        $inc: {age: 4}
      }).
      then((data1)=>{console.log(data1.modifiedCount)})
      .catch((error)=> {console.log(error)})
@@ -177,7 +177,7 @@ db.collection ('users').insertMany([
  db.collection("users").updateOne({_id:mongodb.ObjectId("66b2bcb945e40d9be9560c12")},{
        
         
-        $inc: {age: 5}
+        $inc: {age: 4}
      }).
      then((data1)=>{console.log(data1.modifiedCount)})
      .catch((error)=> {console.log(error)})
@@ -189,7 +189,7 @@ db.collection ('users').insertMany([
      db.collection("users").updateOne({_id:mongodb.ObjectId("66b2bcb945e40d9be9560c16")},{
        
         
-        $inc: {age: 5}
+        $inc: {age: 4}
      }).
      then((data1)=>{console.log(data1.modifiedCount)})
      .catch((error)=> {console.log(error)})
@@ -200,7 +200,7 @@ db.collection ('users').insertMany([
      db.collection("users").updateOne({_id:mongodb.ObjectId("66b2bcb945e40d9be9560c17")},{
        
         
-        $inc: {age: 5}
+        $inc: {age: 4}
      }).
      then((data1)=>{console.log(data1.modifiedCount)})
      .catch((error)=> {console.log(error)})
